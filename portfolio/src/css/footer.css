@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+
+footer {
+  position: relative;
+  top: 20px;
+  width: 100%;
+  background-color: #05B3A4;
+  min-height: 100px;
+  padding: 20px 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+}
+
+footer .social_icon, footer .menu {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 0;
+}
+
+footer .social_icon {
+  font-size: 25px;
+  gap: 30px;
+}
+
+footer .menu {
+  font-family: "Satisfy", cursive;
+  font-weight: 200px;
+  font-style: normal;
+  font-size: 20px;
+  gap: 20px;
+  color: #a80000;
+
+
+}
+
+footer .social_icon li, footer .menu li {
+  list-style: none;
+}
+
+footer .social_icon li {
+  color: #ffffff;
+  margin: 0 10px;
+  display: inline-block;
+  transition: 0.5s;
+}
+
+footer .social_icon li:hover {
+  cursor: pointer;
+  transform: translateY(-15px);
+  color: rgb(0, 0, 0);
+}
+
+.nameid{
+  padding-bottom: 10px;
+  font-family: "Dancing Script", cursive;
+    font-weight: 900px;
+    color: #ffffff;
+    font-size: 32px;
+    font-style:normal;
+    text-align: center;
+}
+footer .menu li a {
+  font-size: 1.2em;
+  color: white;
+  margin: 0 10px;
+  display: inline-block;
+  transition: 0.5s;
+  text-decoration: none;
+}
+
+footer .menu li a:hover {
+  opacity: 1;
+  color: #000000;
+  cursor: pointer;
+}
+
+.footerpara {
+  color: #ffffff;
+  text-align: center;
+  margin-top: 15px;
+  margin-bottom: 10px;
+  font-family: "Satisfy", cursive;
+  font-weight: 200px;
+  font-style: normal;
+  font-size: 22px;
+}
+
+footer .wave {
+  position: absolute;
+  top: -100px;
+  left: 0;
+  width: 100%;
+  height: 100px;
+  background: url(https://i.imgur.com/ZAts69f.png);
+  background-size: 1000px 100px;
+}
+
+footer .wave#wave1 {
+  z-index: 1000;
+  opacity: 1;
+  bottom: 0;
+  background-size: 1000px 100px;
+  animation: animateWave 4s linear infinite;
+}
+
+footer .wave#wave2 {
+  z-index: 999;
+  opacity: 0.5;
+  bottom: 10px;
+  background: url(https://i.imgur.com/ZAts69f.png);
+  background-size: 1000px 100px;
+  animation: animateWave_02 4s linear infinite;
+}
+
+footer .wave#wave3 {
+  z-index: 1000;
+  opacity: 0.2;
+  bottom: 0;
+  background-size: 1000px 100px;
+  animation: animateWave 3s linear infinite;
+}
+
+footer .wave#wave4 {
+  z-index: 999;
+  opacity: 0.7;
+  bottom: 20px;
+  background: url(https://i.imgur.com/ZAts69f.png);
+  background-size: 1000px 100px;
+  animation: animateWave_02 3s linear infinite;
+}
+
+@keyframes animateWave {
+  0% {
+    background-position-x: 1000px;
+  }
+  100% {
+    background-position-x: 0px;
+  }
+}
+
+@keyframes animateWave_02 {
+  0% {
+    background-position-x: 0px;
+  }
+  100% {
+    background-position-x: 1000px;
+  }
+}
+
+
+@media (max-width: 768px) {
+  footer {
+    padding: 20px 10px;
+  }
+
+  footer .social_icon {
+    font-size: 18px;
+    gap: 15px;
+  }
+
+  footer .menu {
+    font-size: 14px;
+    gap: 10px;
+  }
+
+  footer .menu li a {
+    font-size: 0.9em;
+    margin: 0 5px;
+  }
+
+  .nameid {
+    font-size: 20px;
+  }
+
+  .footerpara {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 480px) {
+  footer {
+    padding: 20px 5px;
+  }
+
+  footer .social_icon {
+    font-size: 16px;
+    gap: 10px;
+  }
+
+  footer .menu {
+    flex-direction: column;
+    font-size: 12px;
+  }
+
+  footer .menu li a {
+    font-size: 0.8em;
+    margin: 5px 0;
+  }
+
+  .nameid {
+    font-size: 18px;
+  }
+
+  .footerpara {
+    font-size: 14px;
+  }
+}

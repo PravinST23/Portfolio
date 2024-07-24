@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Caprasimo&family=Caveat:wght@400;500&family=Comforter&family=Dancing+Script:wght@500&family=Fasthand&family=Lilita+One&family=Lora:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+IN:wght@100..400&display=swap');
+.ground{
+    height: 87vh;
+
+}
+    .contact-container{
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        padding-top: -10px;
+        align-items: center;
+    
+    }
+
+  
+    .about-cs{
+        margin-left: 130px;
+        margin-right: 150px;
+        background : transparent;
+        display: flex;
+        flex-direction: column;
+        width: 40%;
+        height: 80vh;
+        border-radius: 10px;
+
+    }
+
+    .about-cs h1{
+        padding-top: 27%;
+        font-size: 3.5rem;
+        font-family: "Dancing Script", cursive;   
+        font-weight: 900;
+        font-style: normal;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+        
+    }
+    .about-cs p{
+        color: #2a2727;
+        font-family: "Satisfy", cursive;
+        font-weight: bold;
+        font-style: normal;
+        font-size: 29px;
+    }
+    .content-ffn{
+        margin-left: 100px;
+        display: flex;
+        flex-direction: column;
+        width: 40%;
+        height: 70vh;
+        border-radius: 10px;
+        background: transparent;    
+        font-weight: 600;
+        font-size: 1.5rem;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.7);
+
+    }
+    .content-ffn p{
+        padding-top: 27px;
+        padding-left: 80px;
+        font-size: 2.5rem;
+        font-family: "Dancing Script", cursive;   
+        font-weight: 900;
+        font-style: normal;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+    }
+
+    .photo{
+        display: flex;
+        margin-left: 70px;
+        margin-top: 10px;
+        border-radius: 50px;
+        width: 80%;
+        height: 80%;
+        background-image: url("../images/photo1.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    @keyframes typing {
+        from { width: 0; }
+        to { width: 100%; }
+      }
+      
+      @keyframes blink {
+        from, to { border-color: transparent; }
+        50% { border-color: black; }
+      }
+      
+      .typewriter-software {
+        color: rgb(0, 115, 128);
+        font-weight: bold;
+      }
+      
+      
+      
+      .resume-button {
+        width: 150px;
+        background-color: rgb(0, 115, 128);
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        font-size: 1em;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+        border-radius: 20px;
+        height: 50px;
+        font-family: "Satisfy", cursive;
+        font-size: 20px;
+        font-weight: 400;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.7);
+        border: 1px solid rgb(1, 1, 1);
+    }
+    .resume{
+        width: 100%;
+        height: 100%;
+        padding-top: 19px;
+        
+      }
+      .resume-button:hover {
+        background-color: #ff0000;
+        color: black;
+      }
+
+      @media (max-width: 480px) {
+        .contact-container{
+            flex-direction: column;
+        }
+        .ground{
+            height: 100%;
+        }
+        .content-ffn{
+            width: 90%;
+            height: 50vh;
+            margin-left: 3px;
+            display: flex;
+            align-items: center;
+            margin-top: 15px;
+        }
+        .photo{
+            margin-left: 10px;
+            padding-top: 5px;
+            height: 35vh;
+        }
+        .content-ffn p{
+            right: 85px;
+            padding-right: 170px;
+        }
+
+        .about-cs{
+            width: 90%;
+            height: 80vh;
+            margin-left: 140px;
+
+        }
+        .about-cs p{
+            font-size: 20px;
+        }
+        .about-cs h1{
+            font-size: 40px;
+        }
+        .resume-button{
+            margin-left: 85px;
+        }
+      }
+     
