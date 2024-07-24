@@ -1,3 +1,5 @@
+import school from "../images/unnamed.png"
+
 export const skills = [
     {
       title: "Frontend",
@@ -126,7 +128,7 @@ export const skills = [
     },
     {
       id: 2,
-      imgUrl:"http://www.edypa.in/logos/profile/limage-6911-98-photo.png",
+      imgUrl: school,
       school: "Vivek Vidyalaya Matriculation Higher Secondary School, Coimbatore",
       date: "June 2020 - Apr 2021",
       grade: "95.2%",
@@ -134,7 +136,7 @@ export const skills = [
     },
     {
       id: 3,
-      imgUrl:"http://www.edypa.in/logos/profile/limage-6911-98-photo.png",
+      imgUrl: school,
       school: "Vivek Vidyalaya Matriculation Higher Secondary School, Coimbatore",
       date: "June 2018 - Apr 2019",
       grade: "94%",
