@@ -4,7 +4,7 @@ import Typewriter from "typewriter-effect";
 
 const Home = () => {
   const ClickResume = () => {
-    window.open("https://drive.google.com/file/d/1ufAtE4051BoIG1fnGyDXzx9rsbR-YISa/view?usp=sharing");
+    window.open("https://drive.google.com/file/d/1QWySDf4QqFNOC6GSCRrFPjLHEG_N0si0/view?usp=sharing");
   }
   return (
     <div>

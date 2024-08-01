@@ -26,7 +26,6 @@ const ContactContainer = styled.div`
   margin-top:80%;
     flex-direction: column;
     width: 90vh;
-    z-index:-1;
   }
 `;
 
@@ -48,6 +47,7 @@ const ContactForm = styled.form`
     height: 70vh;
     margin-bottom: 80vh;
     margin-left:0;
+    z-index:10;
   }
 `;
 
